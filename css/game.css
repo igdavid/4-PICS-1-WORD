@@ -1,0 +1,128 @@
+html, body {
+    background-color: #19456b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+}
+.banner {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btnBack{
+    position: absolute; 
+    left: 10%; 
+    top: 2%;
+}
+
+.score {
+	font-weight: bold;
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+#counter {
+	font-weight: bold;
+    color: white;
+}
+
+div {
+	align-content: center;
+}
+
+#blanks {
+    width: 60vw;
+	height: 40%;
+	text-align: center;
+	margin-left: 97px;
+}
+
+#letters {
+    width: 90%;
+	text-align: center;
+}
+
+.imagehint {
+	height: 40%; 
+	width: 40%;
+	float: right;
+	margin: 0.4em;
+	cursor: pointer;
+    border: 7px solid white;
+}
+
+#container {
+	display: none;
+}
+
+#hintbutton {
+	 float: right;
+	 cursor: pointer;
+    color: white;
+	margin-right: 30px;
+}
+
+#hintbutton:hover {
+	color: #fed049;
+}
+
+.imagehint:hover {
+	box-shadow: 0 0 4px #11698e, 0 0 6px #11698e, 0 0 10px #11698e, 0 0 12px #11698e, 0 0 15px #11698e, 0 0 20px #11698e, 0 0 30px #11698e, 0 0 50px #a6acec;
+}
+
+#imageFull {
+	height: 81.7%;
+	width: 81.7%;
+	margin: 0.4em;
+}
+
+.blank {
+	font-weight: bold;
+	font-size: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+    border-color: white;
+    color: white;
+}
+
+.letter {
+	font-weight: bold;
+	font-size: 40px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 7vmin;
+	cursor: pointer;
+	background: white;
+	color: #2b2e4a;
+}
+
+.letter:hover {
+	color: #2b2e4a;
+	background: #11698e;
+}
+
+#imgSmall {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}

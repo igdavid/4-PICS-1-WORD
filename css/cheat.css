@@ -1,0 +1,107 @@
+html,body{
+    width: 100%;
+    font-size: 15px;
+}
+
+.banner {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+hr {
+    width: 75%;
+    border-color: brown;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;    
+    font-weight: bold;
+}
+
+.CS {
+    text-indent: 2.7%;
+}
+
+.CS1, .CS1answer {
+    text-indent: 2.7%;
+}
+
+.CS2, .CS2answer {
+    text-indent: 2.7%;
+}
+
+.CS3, .CS3answer {
+    text-indent: 2.7%;
+}
+
+.CS4, .CS4answer {
+    text-indent: 2.7%;
+}
+
+.CS5, .CS5answer {
+    text-indent: 2.7%;
+}
+
+.B {
+    text-indent: 2.7%;
+}
+
+.B1, .B1answer {
+    text-indent: 2.7%;
+}
+
+.B2, .B2answer {
+    text-indent: 2.7%;
+}
+
+.B3, .B3answer {
+    text-indent: 2.7%;
+}
+
+.B4, .B4answer {
+    text-indent: 2.7%;
+}
+
+.B5, .B5answer {
+    text-indent: 2.7%;
+}
+
+span {
+    color:brown;
+    font-style: italic;
+}
+
+body {
+    background-image: linear-gradient(rgba(4,102,200,0), #11698e);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.custom-shape-divider-bottom-1616318614 {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1616318614 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 6.6px);
+    height: 250px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1616318614 .shape-fill {
+    fill: #11698e;
+}

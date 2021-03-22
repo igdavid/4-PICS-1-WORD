@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    background-color: lightblue;
+}
+
+.outer-container {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #19456b;
+}
+
+h2 {
+    color: #282846;
+    text-align: center;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+
+.inner-container {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 600px;
+}
+
+button {
+    padding: 20px; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #78c4d4;
+    border-color: #78c4d4;
+}
+
+.btn-success {
+    background-color: #282846;
+    border-color: #282846;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
